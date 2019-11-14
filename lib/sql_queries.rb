@@ -4,15 +4,14 @@ def selects_all_female_bears_return_name_and_age
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
   "SELECT bears.names FROM bears ORDER BY bears.name ASC';"
-  
-end
+  end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
-  "Write your SQL query here"
-end
+  "SELECT bears.name, bears.age WHERE 1=alive ORDER BY bears.age ASC';"
+  end
 
 def selects_oldest_bear_and_returns_name_and_age
-  "Write your SQL query here"
+  "SELECT"
 end
 
 def select_youngest_bear_and_returns_name_and_age
